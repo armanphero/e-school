@@ -1,0 +1,190 @@
+.container{
+    max-width: 1134px;
+}
+img{
+    max-width: 100%;
+}
+section{
+    margin-bottom: 80px;
+}
+p{
+    color: #828381;
+    font-size: 18px;
+}
+
+/* navigation css */
+.header{
+    background-color:#f0fff0;
+}
+.logo-img{
+    height: 57px;
+}
+
+.menu-right{
+    justify-content: end;
+}
+
+button.sign-in {
+    padding: 7px 22px;
+    border: none;
+    background: #21b573;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.navigation ul li a {
+    color: #000000 !important;
+    font-size: 19px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+/* banner */
+.banner {
+    padding: 7% 0;
+}
+
+.banner h1 {
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 4%;
+    width: 80%;
+    margin-top: 5%;
+}
+.banner p:nth-child(1){
+    color: red;
+}
+
+.banner p{
+    color: #828381;
+    font-size: 18px;
+}
+.banner h1 small{
+    color: #21b573;
+}
+p.second-p {
+    width: 74%;
+}
+button.buy-now {
+    padding: 9px 31px;
+    background: #21b573;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+}
+
+/* counter css */
+
+.c-inner {
+    background: #f8fffb;
+    text-align: center;
+    border-radius: 10px;
+}
+.c-inner img {
+    width: 35%;
+}
+
+.diffarent {
+    background: #ffffff;
+    box-shadow: 0px 1px 16px lightgrey;
+}
+
+/* courses */
+.courses .card {
+    border: none;
+    box-shadow: 0px 0px 20px lightgrey;
+    border-radius: 15px;
+}
+.card-footer {
+    background: #fff;
+    border: none;
+}
+.card-footer .col-6:nth-child(1){
+    padding: 0;
+}
+.card-footer img{
+    width: 22px;
+}
+
+.card-footer p {
+    display: inline-block !important;
+    font-size: 14px;
+    color: black;
+}
+
+/* testimonial */
+.under-line{
+
+}
+.testimonial img {
+    width: 120px;
+}
+.testimonial p {
+    width: 85%;
+}
+p.under-line {
+    width: 184px;
+    height: 8px;
+    background-image:linear-gradient(45deg,#64dd13,#14aa67);
+    margin: auto;
+    border-radius: 27px;
+}
+
+/* foooter */
+
+footer {
+    background-color: #282531;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+footer p{
+
+}
+footer h5{
+    color: #fff;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 2px 0px;
+    display: inline-block;
+}
+footer ul li a:hover{
+    color: #21b573;
+}
+
+/* responsive */
+
+@media (max-width:768px) {
+    .counter .col-6{
+        margin-bottom: 20px;
+    }
+    .c-inner{
+        width: 70%;
+        margin: auto;
+    }
+    .courses .card{
+        width: 70%;
+        margin: auto;
+    }
+    
+}
+
+@media (max-width:576px) {
+    .c-inner{
+        width: 90%;
+    }
+    .testimonial p{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+    }
+    p.under-line{
+        width: 184px !important;
+    }
+}
